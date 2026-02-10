@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+/* Barber pole accent - thin stripe motif from logo */
+.barber-stripe {
+  background: linear-gradient(
+    135deg,
+    #C41E3A 0%,
+    #ffffff 33%,
+    #1E3A8A 66%,
+    #C41E3A 100%
+  );
+  background-size: 200% 200%;
+}
